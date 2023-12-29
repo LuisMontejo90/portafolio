@@ -230,7 +230,7 @@ main .sobremi .carruselsobremi {
 
 main .portafolio {
     display: flex;
-     width: 1100px;
+    width: 1100px;
     justify-content: center;
     box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.394);
     background: rgba(24, 24, 28, 0.949);
@@ -288,5 +288,43 @@ main .portafolio .contenedorportafolio .experiencialaboral .empleo4 {
 
     text-align: center;
     border: 2px solid white;
+
+}
+
+
+
+/* aqui empieza  el resposive */
+
+@media screen and (max-width:830px) {
+
+
+
+    header .contenedor {
+        flex-direction: row-reverse;
+        width: 600px;
+        height: auto;
+        position: relative;
+
+    }
+
+
+
+
+
+    main .sobremi {
+        width: 600px;
+        height: auto;
+    }
+
+    main .portafolio {
+
+        flex-direction: column;
+        width: 600px;
+        height: auto;
+
+
+    }
+
+
 
 }
