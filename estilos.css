@@ -146,11 +146,11 @@ main .sobremi .contenedorsobremi {
 main .sobremi .contenedorsobremi .textosobremi {
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    text-align: justify;
+    text-align: center;
     font-size: 14px;
     font-family: 'Courier New', Courier, monospace;
     color: white;
+    font-weight: bold;
 }
 
 main .sobremi .carruselsobremi {
